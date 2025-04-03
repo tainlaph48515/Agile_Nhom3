@@ -1,0 +1,49 @@
+﻿@model List<Product>
+
+<div class="container mt-4">
+    <h2>Quản lý Sản phẩm</h2>
+
+    <!-- Thanh công cụ -->
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-action="Create" class="btn btn-success">Thêm sản phẩm</a>
+        <form method="get" class="d-flex">
+            <input type="text" name="search" class="form-control me-2" placeholder="Tìm kiếm sản phẩm..." />
+            <button type="submit" class="btn btn-primary">Tìm</button>
+        </form>
+    </div>
+
+    <!-- Bảng danh sách sản phẩm -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên</th>
+                <th>Giá</th>
+                <th>Danh mục</th>
+                <th>Số lượng</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price VNĐ</td>
+                    <td>@item.Category</td>
+                    <td>@item.Stock</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?')">Xóa</a>
+                        <a asp-controller="Cart" asp-action="AddToCart" 
+                           asp-route-id="@item.Id" 
+                           asp-route-name="@item.Name"
+                           asp-route-price="@item.Price" 
+                           class="btn btn-primary btn-sm">🛒 Thêm vào giỏ</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

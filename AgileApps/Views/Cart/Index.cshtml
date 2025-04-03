@@ -1,0 +1,51 @@
+﻿@model List<CartItem>
+
+<div class="container mt-4">
+    <h2>🛒 Giỏ hàng của bạn</h2>
+
+    @if (Model.Count == 0)
+    {
+        <p class="alert alert-info">Giỏ hàng trống. Hãy tiếp tục mua sắm!</p>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Price VNĐ</td>
+                        <td>
+                            <form method="post" asp-action="UpdateQuantity" class="d-flex">
+                                <input type="hidden" name="id" value="@item.ProductId" />
+                                <input type="number" name="quantity" value="@item.Quantity" class="form-control w-50" min="1" />
+                                <button type="submit" class="btn btn-primary btn-sm ms-2">Cập nhật</button>
+                            </form>
+                        </td>
+                        <td>@(item.Price * item.Quantity) VNĐ</td>
+                        <td>
+                            <a asp-action="Remove" asp-route-id="@item.ProductId" class="btn btn-danger btn-sm">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h4 class="text-end">Tổng tiền: <strong>@Model.Sum(i => i.Price * i.Quantity) VNĐ</strong></h4>
+
+        <div class="d-flex justify-content-between">
+            <a asp-controller="Product" asp-action="Index" class="btn btn-secondary">Tiếp tục mua sắm</a>
+            <a asp-action="Checkout" class="btn btn-success">Thanh toán</a>
+        </div>
+    }
+</div>
