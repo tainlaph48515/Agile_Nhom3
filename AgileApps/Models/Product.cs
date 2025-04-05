@@ -7,5 +7,9 @@
         public decimal Price { get; set; }
         public string Category { get; set; }
         public int Stock { get; set; }
+        public string Color { get; set; }
+        public string Description { get; set; }  // mô tả ngắn
+        public string ImageUrl { get; set; }     // đường dẫn ảnh
+
     }
 }

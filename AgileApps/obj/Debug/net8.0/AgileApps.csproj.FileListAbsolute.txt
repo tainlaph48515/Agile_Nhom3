@@ -142,3 +142,4 @@ C:\Users\nehi1\source\repos\AgileApp\AgileApps\obj\Debug\net8.0\refint\AgileApps
 C:\Users\nehi1\source\repos\AgileApp\AgileApps\obj\Debug\net8.0\AgileApps.pdb
 C:\Users\nehi1\source\repos\AgileApp\AgileApps\obj\Debug\net8.0\AgileApps.genruntimeconfig.cache
 C:\Users\nehi1\source\repos\AgileApp\AgileApps\obj\Debug\net8.0\ref\AgileApps.dll
+C:\Users\nehi1\source\repos\AgileApp\AgileApps\obj\Debug\net8.0\AgileApps.sourcelink.json

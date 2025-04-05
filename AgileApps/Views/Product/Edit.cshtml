@@ -1,9 +1,11 @@
-﻿@model Product
+﻿@model AgileApps.Models.Product
 
 <div class="container mt-4">
-    <h2>Thêm Sản phẩm</h2>
+    <h2>Sửa Sản phẩm</h2>
 
-    <form asp-action="Create" method="post">
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+
         <div class="mb-3">
             <label class="form-label">Tên sản phẩm</label>
             <input asp-for="Name" class="form-control" required />
@@ -24,27 +26,11 @@
         </div>
 
         <div class="mb-3">
-            <label class="form-label">Màu sắc</label>
-            <input asp-for="Color" class="form-control" required />
-        </div>
-
-        <div class="mb-3">
             <label class="form-label">Số lượng</label>
             <input asp-for="Stock" class="form-control" type="number" required />
         </div>
 
-        <div class="mb-3">
-            <label class="form-label">Đường dẫn ảnh (ImageUrl)</label>
-            <input asp-for="ImageUrl" class="form-control" />
-            <small class="form-text text-muted">Ví dụ: /images/iphone15.jpg</small>
-        </div>
-
-        <div class="mb-3">
-            <label class="form-label">Mô tả ngắn</label>
-            <textarea asp-for="Description" class="form-control"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Lưu</button>
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
         <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
     </form>
 </div>

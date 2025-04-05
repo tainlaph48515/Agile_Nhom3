@@ -12,19 +12,7 @@ namespace AgileApps.Controllers
             return View(cart);
         }
 
-        public IActionResult AddToCart(int id, string name, decimal price)
-        {
-            var item = cart.FirstOrDefault(p => p.ProductId == id);
-            if (item != null)
-            {
-                item.Quantity++;
-            }
-            else
-            {
-                cart.Add(new CartItem { ProductId = id, ProductName = name, Price = price, Quantity = 1 });
-            }
-            return RedirectToAction("Index");
-        }
+       
 
         [HttpPost]
         public IActionResult UpdateQuantity(int id, int quantity)
@@ -46,6 +34,38 @@ namespace AgileApps.Controllers
             }
             return RedirectToAction("Index");
         }
+        public IActionResult AddToCart(int id, string name, decimal price)
+        {
+            var product = ProductController.products.FirstOrDefault(p => p.Id == id);
+
+            if (product == null || product.Stock <= 0)
+            {
+                TempData["Error"] = "Sản phẩm đã hết hàng!";
+                return RedirectToAction("Index", "Product");
+            }
+
+            var item = cart.FirstOrDefault(p => p.ProductId == id);
+            if (item != null)
+            {
+                item.Quantity++;
+            }
+            else
+            {
+                cart.Add(new CartItem
+                {
+                    ProductId = id,
+                    ProductName = name,
+                    Price = price,
+                    Quantity = 1
+                });
+            }
+
+            product.Stock--;
+
+            TempData["Success"] = "Đã thêm vào giỏ hàng!";
+            return RedirectToAction("Index", "Product");
+        }
+
 
         public IActionResult Checkout()
         {

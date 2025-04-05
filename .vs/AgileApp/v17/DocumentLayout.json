@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\agileapps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\agileapps.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,20 +51,12 @@
       "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|c:\\users\\nehi1\\source\\repos\\agileapp\\agileapps\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D6B56A9-CDA5-437F-A511-C9E933AFA452}|AgileApps\\AgileApps.csproj|solutionrelative:agileapps\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,64 +110,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\appsettings.json",
-              "RelativeDocumentMoniker": "AgileApps\\appsettings.json",
-              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\appsettings.json",
-              "RelativeToolTip": "AgileApps\\appsettings.json",
+              "DocumentIndex": 2,
+              "Title": "AgileApps",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\AgileApps.csproj",
+              "RelativeDocumentMoniker": "AgileApps\\AgileApps.csproj",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\AgileApps.csproj",
+              "RelativeToolTip": "AgileApps\\AgileApps.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T01:33:18.537Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T09:03:38.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "AgileApps\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "AgileApps\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADMAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileApps\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AgileApps\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-29T12:43:31.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "AgileApps\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\CartController.cs",
-              "RelativeToolTip": "AgileApps\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T12:42:34.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "AgileApps\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\CartItem.cs",
-              "RelativeToolTip": "AgileApps\\Models\\CartItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T12:41:43.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "AgileApps\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "AgileApps\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-29T12:36:20.63Z"
+              "WhenOpened": "2025-04-05T08:36:39.466Z"
             },
             {
               "$type": "Document",
@@ -153,34 +141,147 @@
               "RelativeDocumentMoniker": "AgileApps\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "AgileApps\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwDEAAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-29T12:36:02.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Program.cs",
+              "RelativeDocumentMoniker": "AgileApps\\Program.cs",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Program.cs",
+              "RelativeToolTip": "AgileApps\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:36:50.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "AgileApps\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\ProductController.cs",
               "RelativeToolTip": "AgileApps\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDcAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAzwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T12:34:45.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AgileApps\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AgileApps\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAuwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T12:42:34.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AgileApps\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "AgileApps\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T08:21:57.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "AgileApps\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "AgileApps\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T12:36:20.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "AgileApps\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "AgileApps\\Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T08:52:57.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\Product.cs",
               "RelativeDocumentMoniker": "AgileApps\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\Product.cs",
               "RelativeToolTip": "AgileApps\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T12:32:19.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgileApps\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "AgileApps\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T12:43:31.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\appsettings.json",
+              "RelativeDocumentMoniker": "AgileApps\\appsettings.json",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\appsettings.json",
+              "RelativeToolTip": "AgileApps\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-31T01:33:18.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AgileApps\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AgileApps\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T08:12:49.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "AgileApps\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\Models\\CartItem.cs",
+              "RelativeToolTip": "AgileApps\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T12:41:43.574Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },

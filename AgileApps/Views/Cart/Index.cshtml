@@ -1,4 +1,4 @@
-﻿@model List<CartItem>
+﻿@model List<AgileApps.Models.CartItem>
 
 <div class="container mt-4">
     <h2>🛒 Giỏ hàng của bạn</h2>
@@ -41,7 +41,10 @@
             </tbody>
         </table>
 
-        <h4 class="text-end">Tổng tiền: <strong>@Model.Sum(i => i.Price * i.Quantity) VNĐ</strong></h4>
+        <h4 class="text-end">
+            Tổng tiền:
+            <strong>@Model.Sum(i => i.Price * i.Quantity) VNĐ</strong>
+        </h4>
 
         <div class="d-flex justify-content-between">
             <a asp-controller="Product" asp-action="Index" class="btn btn-secondary">Tiếp tục mua sắm</a>

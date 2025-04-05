@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\wwwroot\\images\\iphone15.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\wwwroot\\images\\macbook.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook.jpg"
+    },
+    {
       "Id": "C:\\Users\\nehi1\\source\\repos\\AgileApp\\AgileApps\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -5,18 +5,46 @@ namespace AgileApps.Controllers
 {
     public class ProductController : Controller
     {
-        private static List<Product> products = new List<Product>
-    {
-        new Product { Id = 1, Name = "iPhone 15", Price = 25000000, Category = "Điện thoại", Stock = 10 },
-        new Product { Id = 2, Name = "MacBook Air M2", Price = 30000000, Category = "Laptop", Stock = 5 }
-    };
+        public static List<Product> products = new List<Product>
+{
+    new Product {
+        Id = 1, Name = "iPhone 15", Price = 25000000, Category = "Điện thoại",
+        Stock = 10, Color = "Đen", Description = "Điện thoại cao cấp mới nhất của Apple.",
+        ImageUrl = "/images/iphone15.jpg"
+    },
+    new Product {
+        Id = 2, Name = "MacBook Air M2", Price = 30000000, Category = "Laptop",
+        Stock = 5, Color = "Bạc", Description = "Laptop siêu nhẹ chạy chip Apple M2.",
+        ImageUrl = "/images/macbook.jpg"
+    }
+};
 
-        public IActionResult Index(string search)
+
+        public IActionResult Index(string search, string color, decimal? minPrice, decimal? maxPrice)
         {
-            var result = string.IsNullOrEmpty(search) ? products :
-                         products.Where(p => p.Name.Contains(search)).ToList();
-            return View(result);
+            var result = products.AsQueryable();
+
+            if (!string.IsNullOrEmpty(search))
+                result = result.Where(p => p.Name.Contains(search, StringComparison.OrdinalIgnoreCase));
+
+            if (!string.IsNullOrEmpty(color))
+                result = result.Where(p => p.Color != null && p.Color.Contains(color, StringComparison.OrdinalIgnoreCase));
+
+            if (minPrice.HasValue)
+                result = result.Where(p => p.Price >= minPrice.Value);
+
+            if (maxPrice.HasValue)
+                result = result.Where(p => p.Price <= maxPrice.Value);
+
+            return View(result.ToList());
         }
+        public IActionResult Details(int id)
+        {
+            var product = products.FirstOrDefault(p => p.Id == id);
+            if (product == null) return NotFound();
+            return View(product);
+        }
+
 
         public IActionResult Create() => View();
 

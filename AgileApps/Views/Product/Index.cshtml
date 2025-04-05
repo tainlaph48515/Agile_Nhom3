@@ -3,13 +3,28 @@
 <div class="container mt-4">
     <h2>Quản lý Sản phẩm</h2>
 
-    <!-- Thanh công cụ -->
-    <div class="d-flex justify-content-between mb-3">
-        <a asp-action="Create" class="btn btn-success">Thêm sản phẩm</a>
-        <form method="get" class="d-flex">
-            <input type="text" name="search" class="form-control me-2" placeholder="Tìm kiếm sản phẩm..." />
-            <button type="submit" class="btn btn-primary">Tìm</button>
-        </form>
+    <!-- Tìm kiếm nâng cao -->
+    <form method="get" class="row g-2 mb-4">
+        <div class="col-md-3">
+            <input type="text" name="search" class="form-control" placeholder="Tìm theo tên..." value="@Context.Request.Query["search"]" />
+        </div>
+        <div class="col-md-2">
+            <input type="text" name="color" class="form-control" placeholder="Màu sắc..." value="@Context.Request.Query["color"]" />
+        </div>
+        <div class="col-md-2">
+            <input type="number" name="minPrice" class="form-control" placeholder="Giá từ..." value="@Context.Request.Query["minPrice"]" />
+        </div>
+        <div class="col-md-2">
+            <input type="number" name="maxPrice" class="form-control" placeholder="Đến..." value="@Context.Request.Query["maxPrice"]" />
+        </div>
+        <div class="col-md-3">
+            <button type="submit" class="btn btn-primary w-100">🔍 Tìm kiếm</button>
+        </div>
+    </form>
+
+    <!-- Nút thêm sản phẩm -->
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-success">➕ Thêm sản phẩm</a>
     </div>
 
     <!-- Bảng danh sách sản phẩm -->
@@ -18,6 +33,7 @@
             <tr>
                 <th>ID</th>
                 <th>Tên</th>
+                <th>Màu</th>
                 <th>Giá</th>
                 <th>Danh mục</th>
                 <th>Số lượng</th>
@@ -29,17 +45,22 @@
             {
                 <tr>
                     <td>@item.Id</td>
-                    <td>@item.Name</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="text-decoration-none">
+                            @item.Name
+                        </a>
+                    </td>
+                    <td>@item.Color</td>
                     <td>@item.Price VNĐ</td>
                     <td>@item.Category</td>
                     <td>@item.Stock</td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
                         <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa?')">Xóa</a>
-                        <a asp-controller="Cart" asp-action="AddToCart" 
-                           asp-route-id="@item.Id" 
+                        <a asp-controller="Cart" asp-action="AddToCart"
+                           asp-route-id="@item.Id"
                            asp-route-name="@item.Name"
-                           asp-route-price="@item.Price" 
+                           asp-route-price="@item.Price"
                            class="btn btn-primary btn-sm">🛒 Thêm vào giỏ</a>
                     </td>
                 </tr>
